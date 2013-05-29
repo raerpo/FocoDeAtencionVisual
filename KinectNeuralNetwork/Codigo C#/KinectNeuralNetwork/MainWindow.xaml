@@ -1,0 +1,28 @@
+﻿<Window x:Class="NeuralNetwork.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="654" Width="1168" Loaded="Window_Loaded" WindowState="Maximized">
+    <Grid>
+        <Image Height="480" HorizontalAlignment="Left" Margin="28,49,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="640" />
+        <Canvas Height="480" HorizontalAlignment="Left" Margin="28,49,0,0" Name="canvas1" VerticalAlignment="Top" Width="640">
+            <Ellipse Canvas.Left="104" Canvas.Top="47" Height="100" Name="ellipse1" Stroke="Red" Width="100" StrokeThickness="3" Visibility="Hidden" />
+            <Ellipse Canvas.Left="251" Canvas.Top="49" Height="100" Name="ellipse2" Stroke="Red" StrokeThickness="3" Width="100" Visibility="Hidden" />
+        </Canvas>
+        <Image Height="150" HorizontalAlignment="Left" Margin="734,48,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="150" />
+        <Image Height="150" HorizontalAlignment="Left" Margin="915,49,0,0" Name="image3" Stretch="Fill" VerticalAlignment="Top" Width="150" />
+        <Canvas Height="100" HorizontalAlignment="Left" Margin="758,229,0,0" Name="canvas2" VerticalAlignment="Top" Width="100">
+            <Image Canvas.Left="2" Canvas.Top="2" Height="98" Name="image4" Stretch="Fill" Width="98" Source="/KinectNeuralNetwork;component/Images/angImage.png" />
+        </Canvas>
+        <Canvas Height="100" HorizontalAlignment="Left" Margin="939,227,0,0" Name="canvas3" VerticalAlignment="Top" Width="100">
+            <Image Canvas.Left="2" Canvas.Top="2" Height="98" Name="image5" Stretch="Fill" Width="98" Source="/KinectNeuralNetwork;component/Images/angImage.png" />
+        </Canvas>
+        <Label Content="Angulo 1" Height="44" HorizontalAlignment="Left" Margin="758,335,0,0" Name="label1" VerticalAlignment="Top" FontSize="26" Width="149" />
+        <Label Content="Angulo 2" FontSize="26" Height="44" HorizontalAlignment="Left" Margin="939,335,0,0" Name="label2" VerticalAlignment="Top" Width="149" />
+        <Label Content="Imagen de profundidad" FontSize="20" Height="44" HorizontalAlignment="Left" Margin="28,16,0,0" Name="label3" VerticalAlignment="Top" Width="286" />
+        <Label Content="Cabeza 1" FontSize="20" Height="44" HorizontalAlignment="Left" Margin="735,20,0,0" Name="label4" VerticalAlignment="Top" Width="149" />
+        <Label Content="Cabeza 2" FontSize="20" Height="44" HorizontalAlignment="Left" Margin="915,20,0,0" Name="label5" VerticalAlignment="Top" Width="149" />
+        <Image Height="191" HorizontalAlignment="Left" Margin="742,433,0,0" Name="image6" Stretch="Fill" VerticalAlignment="Top" Width="323" />
+        <Label Content="Imagen de color" FontSize="20" Height="44" HorizontalAlignment="Left" Margin="742,399,0,0" Name="label6" VerticalAlignment="Top" Width="184" />
+        <Ellipse Height="29" HorizontalAlignment="Left" Margin="28,554,0,0" Name="ellipse3" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="Red" />
+    </Grid>
+</Window>
